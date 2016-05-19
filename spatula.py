@@ -9,6 +9,11 @@ from requests.exceptions import MissingSchema
 
 
 class Spatula:
+    """ Spatula Class
+
+    Gets a web - page from the Internet, runs a selector query on it if
+    supplied, and stores the DOM element that results.
+    """
 
     def __init__(self, url, selector=None):
         try:

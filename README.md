@@ -31,12 +31,18 @@
   ```
   ./spatula.py "http://wikipedia.com" -s "a" -a "href"
   ```
-  *Note: Using the `./` notation may require running `chmod +x spatula.py`,
-  depending on your system. This also may depend on the path to your python
-  executable. When in doubt, use the explicit `python` syntax above.*
+
+  > *Note*: Using the `./` notation may require running `chmod +x spatula.py`,
+  > depending on your system. This also may depend on the path to your python
+  > executable. When in doubt, use the explicit `python` syntax above.
 
   If you want to know more about the ins and outs of the application, just run:
 
   ```
   python spatula.py -h
   ```
+
+## Python API
+
+  Spatula can also be used from inside of a Python program, if needed. Just
+  import the `Spatula` class.
